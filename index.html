@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        .container {
+            width: 610px;
+            height: 329px;
+            margin-top: 180px;
+            margin-left: 350px;
+            border-radius: 30px;
+            background: #dbdbdb;
+            position: fixed;
+        }
+        .container h2{
+            font-family: 'poppins';
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+            margin-top:-100px;
+
+        }
+        .container img{
+            width: 219px;
+            height: 219px;
+            margin-top: 0px;
+            margin-left: 190px;
+        }
+        .container p{
+            margin-top:1px;
+            width: 475px;
+            height: 56px;
+            border-radius: 20px;
+            margin-left: 60px;
+            background: #FEEEE2;
+            font-family: 'poppins';
+            font-weight: 800;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .buton1{
+            background-color:#6FD240;
+            border-radius: 12px;
+            width: 157px;
+            height: 41px;
+            margin-left: 100px;
+            font-family: 'poppins';
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .buton2{
+            background-color: #E12E2E;
+            border-radius: 12px;
+            width: 157px;
+            height: 41px;
+            margin-left: 90px;
+            font-family:'poppins';
+            color: #ffffff;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .buton1:hover{
+            background-color:white; 
+        }
+        .buton2:hover{
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h2 id="judul">Yakin Kan Profesi Anda !</h2>
+        <img id="img" src="/aset/detect.png">
+        <p> Apakah anda seorang Detective ?</p>
+        <button id="ya" type="submit" class="buton1"> Iya!! </button>
+        <button id="no" type="submit" class="buton2"> Tidak!!</button>
+    </div>
+    <script src="/script.js">
+    </script>   
+</body>
+</html>
